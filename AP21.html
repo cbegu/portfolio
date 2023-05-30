@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bodyproj">
+    <div class="header">
+      <div class="blocgauche"><a href="PORTFOLIOBEGU.html"><img class="logo" src="images/icon.png" alt="Logo"></a>
+        <a class="name" href="PORTFOLIOBEGU.html">Begu Corentin</a></div>
+        <div class="langue"><p class="FR"></p>
+
+        </div>
+        </div>
+        
+<div class="box">
+    <p class="titreprojet">AP 2.1 GENERATEUR SQL</p>
+    <p class="txtprojet">Dans le contexte M2L, la maison des ligues a décidé de publier les données relatives aux
+      résultats des matchs de la fédération lorraine de FutSal (football en salle), et ce, via une
+      application Web. Elle souhaite pour cela rassembler les données de ces résultats dans une
+      base de données MySql, avant de passer à la phase de développement de cette application.
+      Pour cela, une base de données MySql (nommée : FLFS) doit être créée.
+      A ce jour, la structure définitive de la base a été partiellement définie et implantée sous le
+      SGBD Access (FLFS.mdb).
+      Parallèlement, les données relatives aux résultats des matches, après avoir été saisies et
+      enregistrées dans des tableaux Excel, sont enregistrées dans des fichiers texte, à l’état "brut", à
+      raison d’un fichier par table (vois les fichiers .txt joints dans le dossier "fichiers Data"). 
+      
+    </p>
+    <a href="detail2.1.html" class="detail">detail du projets</a>
+    <a href="PORTFOLIOBEGU.html" class="retour">Retour aux projets</a>
+    <div class="boxin">
+        <div class="slider">
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <!--radio buttons end-->
+              <!--slide images start-->
+              <div class="slide first">
+                <img src="images/Capture2.1.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/Capture.PNG" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/Capture.PNG"  alt="">
+              </div>
+              <div class="slide">
+                <img src="images/Capture.PNG"  alt="">
+              </div>
+              </div>
+
+<div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+              </div>
+              <!--manual navigation end-->
+            </div>
+            <!--image slider end-->
+        
+            <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+              document.getElementById('radio' + counter).checked = true;
+              counter++;
+              if(counter > 4){
+                counter = 1;
+              }
+            }, 5000);
+            </script>
+</div>
+</div>
+
+
+<div class="footer">
+                <p class="copyright">&copy; Begu Corentin - 2023</p>
+            </div>
+</body>
+</html>
